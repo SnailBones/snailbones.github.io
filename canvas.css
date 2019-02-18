@@ -1,0 +1,40 @@
+html {
+  /* overflow: hidden; */
+  touch-action: none;
+  content-zooming: none;
+}
+body {
+	font-family: 'Encode Sans Condensed', sans-serif;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  /* background: #012; */
+	background: #000;
+	/* color: #669; */
+	color: #db5f04;
+	text-align: center;
+}
+#canvas {
+  /*   background-image: linear-gradient(#002, #324); */
+  /* background: #223; */
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  /* width: 100%;
+  height: 100%; */
+	width: 512px;
+	height: 512px;
+  /* 	background: #000; */
+  /* 	position: absolute; */
+}
+h1{
+	margin: 0;
+	font-size: 48px;
+}
+img{
+	width:100%;
+}
